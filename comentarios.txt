@@ -1,0 +1,4 @@
+-problemas para que las imagenes en las tarjetas queden del mismo tamaño
+pude solucionarlo desde un editor de imagen y les di el mismo tamaño a todas
+-Muchas veces cuando creaba las tarjetas al pasar de la cuarta o quinta aparecia grande y no tenia como modificar el tamaño 
+
