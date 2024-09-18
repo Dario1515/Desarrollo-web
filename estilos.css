@@ -83,29 +83,40 @@ text-shadow: 0 0 5px rgba(255, 217, 0, 0.705);
     text-shadow: 0 0 5px goldenrod;
     margin: 20px;
 }
+.tex2{
+    font-size: 35px;
+}
 .card{
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
-.container{
-    display: flex;
-    justify-content: center;
-    background-color: rgba(218, 165, 32, 0.445);
-    border-radius: 20px;
-    padding: 20px;
-    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+.mapa{
+    font-size: 25px;
+    font-family: "Bebas Neue", sans-serif;
 
 }
-
+.fa-whatsapp{
+    margin-right: 10px;
+    color: greenyellow;
+}
+.fa-map-location-dot{
+    margin-right: 10px;
+    color: red;
+}
+.fa-envelope{
+    margin-right: 10px;
+    color: white;
+}
 .card-body{
     padding: 25px;
     margin-top: -15px;
 }
 .t-imput{
-    color: white;
+    color: black;
     font-family: "Archivo Black", system-ui;
-    text-shadow: 0 0 5px black;
+    text-shadow: 0 0 10px goldenrod;
     padding: 20px;
     font-size: 30px;
+    text-align: center;
 }
 .card-title{
     font-size: 25px;
@@ -164,14 +175,6 @@ box-shadow: 0 0 10px black;
 
 }
 
-.ubidesc{
-    background-color: black;
-    margin-bottom: 0%;
-    color: goldenrod;
-    font-size: 25px;
-    text-align: center;
-    padding: 20px;
-}
 .map1{
     color: goldenrod;
     padding: 25px;
