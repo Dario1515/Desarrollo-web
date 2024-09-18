@@ -74,6 +74,9 @@ text-shadow: 0 0 5px rgba(255, 217, 0, 0.705);
 }
 .text-center{
     font-size: 50px;
+    font-family: "Bebas Neue", sans-serif;
+    text-shadow: 0 0 5px goldenrod;
+    color: black;
 }   
 .card{
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
@@ -87,9 +90,11 @@ text-shadow: 0 0 5px rgba(255, 217, 0, 0.705);
     font-size: 25px;
     font-family:fantasy;
     text-shadow: 0 0 10px goldenrod;
+    text-align: center;
 }
 .card-text{
-    font-size: 20px;
+    font-size: 30px;
+    font-family: "Bebas Neue", sans-serif;
 }
 .btn{
     border-radius: 10px ;
