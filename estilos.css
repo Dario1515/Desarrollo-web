@@ -127,14 +127,16 @@ font-size: 30px;
  input{
     padding: 20px;
  border-radius: 25px;
- border: 2px solid goldenrod;
- background-color: antiquewhite;
+ border: 2px solid white;
+ background-color: goldenrod;
  font-size: 20px;
 width: 500px;
 margin-bottom: 25px;
 margin-top: 20px;
+box-shadow: 0 0 10px white;
 
 }
+
 .ubidesc{
     background-color: black;
     margin-bottom: 0%;
@@ -146,7 +148,11 @@ margin-top: 20px;
 .map1{
     color: goldenrod;
     padding: 25px;
+
   
+}
+.map1 p{
+    padding: 20px;
 }
 iframe{
     width: 310px;
