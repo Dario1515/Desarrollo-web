@@ -63,7 +63,14 @@ text-shadow: 0 0 5px rgba(255, 217, 0, 0.705);
     background-position: center;
    
 }
-
+.card1 img{
+  
+    transition: all 1.1s;
+   
+}
+.card1 img:hover{
+    transform: scale(1.05);
+}
 .row .btn {
     margin-left: 50%
 }
@@ -102,6 +109,8 @@ text-shadow: 0 0 5px rgba(255, 217, 0, 0.705);
     background-size: cover;
     margin-left: auto;
 }
+
+
 .fa-whatsapp{
     margin-right: 10px;
     color: greenyellow;
@@ -176,7 +185,6 @@ text-shadow: 0 0 5px rgba(255, 217, 0, 0.705);
  border-radius: 25px;
  background-color: goldenrod;
  font-size: 20px;
-width: 500px;
 margin-bottom: 25px;
 margin-top: 20px;
 box-shadow: 0 0 10px black;
