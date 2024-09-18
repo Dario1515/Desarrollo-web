@@ -92,7 +92,15 @@ text-shadow: 0 0 5px rgba(255, 217, 0, 0.705);
 .mapa{
     font-size: 25px;
     font-family: "Bebas Neue", sans-serif;
-
+}
+.mapa .card{
+    background-color: rgba(255, 255, 255, 0.349);
+    padding: 20px;
+    color: black;
+    text-shadow: 0 0 5px goldenrod;
+    text-align: center;
+    background-size: cover;
+    margin-left: auto;
 }
 .fa-whatsapp{
     margin-right: 10px;
@@ -185,7 +193,7 @@ box-shadow: 0 0 10px black;
     padding: 20px;
 }
 iframe{
-    width: 310px;
+    width: auto;
 }
 footer{
     background-color: black;

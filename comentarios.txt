@@ -1,7 +1,13 @@
+Problemas o inconvenientes 
+
 -problemas para que las imagenes en las tarjetas queden del mismo tamaño
 pude solucionarlo desde un editor de imagen y les di el mismo tamaño a todas
+
 -Muchas veces cuando creaba las tarjetas al pasar de la cuarta o quinta aparecia grande y no tenia como modificar el tamaño 
 
-Paginas responsivas -Catalogo - Concesionarias
+- Queria sumar carousel de imagenes pero en alguna parte el codigo fallaba y los botones para pasar a la siguiente foto no funcionaban
+
+Paginas responsivas (Catalogo - Concesionarias)
+
 - se adaptan las imagenes (catalogo)
 - se adaptan los mapas (Concesionarias)
