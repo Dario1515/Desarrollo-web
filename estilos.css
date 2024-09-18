@@ -1,23 +1,32 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bebas+Neue&family=Happy+Monkey&family=Jacques+Francois+Shadow&display=swap');
+
+
 .navbar{
     background-color: black ;
 }
+
 .nav-link{
-    color: goldenrod;
-font-size: 30px;
+    color: rgb(218, 165, 32);
+font-size: 27px;
+font-family: "Bebas Neue", sans-serif;
+padding: 10px;
+margin: 20px;
+text-shadow: 0 0 5px rgba(255, 217, 0, 0.705);
 }
 .jumbotron{
     background-image: url(./imagenes/fondo\ nue.jpg);
     background-size: cover;
     background-position: center;
     height: 550px;
-    border: 1px solid goldenrod;
+    border: 1px solid rgba(218, 165, 32, 0.644);
     font-size: 30px;
 
 }
 .desc1{
-    font-size: 25px;
-    text-shadow: 0 0 10px rgb(235, 6, 6);
+    font-size: 35px;
+    text-shadow: 0 0 5px goldenrod;
+    font-family: "Bebas Neue", sans-serif;
 }
 .btn{
     font-size: 23px;
@@ -36,7 +45,7 @@ font-size: 30px;
     border: 1px solid goldenrod;
 }
 .row h2{
-    font-size: 35px;
+    font-size: 55px;
     color: black;
     text-shadow: 5px 5px 10px goldenrod;
     border-radius: 2px;
@@ -45,16 +54,16 @@ font-size: 30px;
     padding: 10px;
     text-align: center;
     margin-left: 200px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "Bebas Neue", sans-serif;
 }
 .vend{
     background-image: url(./imagenes/auto\ 1.jpg);
     height: 400px;
     background-size: cover;
     background-position: center;
-  
-
+   
 }
+
 .row .btn {
     margin-left: 50%
 }
@@ -90,6 +99,8 @@ font-size: 30px;
     background-color: goldenrod;
     font-size: 24px; 
     border-color: black;
+    font-family: "Archivo Black", system-ui;
+    text-shadow: 0 0 4px rgb(250, 246, 246);
 }
 .btn-primary{
     border-radius: 10px ;
