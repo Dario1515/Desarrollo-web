@@ -1,0 +1,243 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bebas+Neue&family=Happy+Monkey&family=Jacques+Francois+Shadow&display=swap');
+
+$tshadow :0 0 5px rgba(255, 217, 0, 0.705);
+$colordorado:goldenrod;
+
+.navbar{
+    background-color: black;
+ }
+.nav-link{
+    color: rgb(218, 165, 32);
+font-size: 27px;
+font-family: "Bebas Neue", sans-serif;
+padding: 10px;
+margin: 20px;
+text-shadow: $tshadow;
+
+}
+.jumbotron{
+    background-image: url(./imagenes/fondo\ nue.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 550px;
+    border: 1px solid rgba(218, 165, 32, 0.644);
+    font-size: 30px;
+
+}
+.desc1{
+    font-size: 35px;
+    text-shadow: $tshadow;
+    font-family: "Bebas Neue", sans-serif;
+}
+.btn{
+    font-size: 23px;
+    text-shadow: 0 0 5px black;;
+}
+.cat{
+    background-image: linear-gradient(to right bottom, rgba(255, 255, 255, 0.445),rgba(29, 28, 28, 0.438)), url(./imagenes/vw\ combie.jpg);
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+}
+.row .cat{
+    border: 1px solid $colordorado;
+}
+.row .vend{
+    border: 1px solid $colordorado;
+}
+.row h2{
+    font-size: 55px;
+    color: black;
+    text-shadow: 5px 5px 10px $colordorado;
+    border-radius: 2px;
+    width: 50%;
+    margin-top: 10px;
+    padding: 10px;
+    text-align: center;
+    margin-left: 200px;
+    font-family: "Bebas Neue", sans-serif;
+}
+.vend{
+    background-image: linear-gradient(to right bottom, rgba(255, 255, 255, 0.445),rgba(29, 28, 28, 0.438)),url(./imagenes/auto\ 1.jpg);
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+   
+}
+.card1{
+    background-image: linear-gradient(160deg, #141414bb 0%, #ece9e26e 100%), url(imagenes/fondo\ 9.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.card1 img{
+  
+    transition: all 1.1s;
+   
+}
+.card1 img:hover{
+    transform: scale(1.05);
+}
+.row .btn {
+    margin-left: 50%
+}
+.container-fluid{
+
+    background-image: linear-gradient(253deg, rgba(0, 0, 0, 0.596) 0%, #f7f3f37c 47%, #ffcd708c 100%),url(imagenes/fondo\ 5.jpg);
+}   
+.text-center{
+    font-size: 50px;
+    font-family: "Bebas Neue", sans-serif;
+    text-shadow:$tshadow;
+    color: black;
+}   
+.text-p{
+    color: white;
+    text-shadow: $tshadow;
+    margin: 20px;
+}
+.tex2{
+    font-size: 35px;
+    color: white;
+    text-shadow: 0 0 10px $colordorado;
+}
+.card{
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    background-image: linear-gradient(160deg, #141414bb 0%, #ece9e23f 100%), url(imagenes/fondo\ 9.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.mapa{
+    font-size: 25px;
+    font-family: "Bebas Neue", sans-serif;
+}
+.mapa .card{
+    background-color: rgba(255, 255, 255, 0.349);
+    padding: 20px;
+    color: black;
+    text-shadow: $tshadow;
+    text-align: center;
+    background-size: cover;
+    margin-left: auto;
+}
+
+
+.fa-whatsapp{
+    margin-right: 10px;
+    color: greenyellow;
+}
+.fa-map-location-dot{
+    margin-right: 10px;
+    color: red;
+}
+.fa-envelope{
+    margin-right: 10px;
+    color: white;
+}
+.card-body{
+    padding: 25px;
+    margin-top: -15px;
+}
+.t-imput{
+    color: black;
+    font-family: "Archivo Black", system-ui;
+    text-shadow: 0 0 10px $colordorado;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+.card-title{
+    font-size: 25px;
+    font-family:fantasy;
+    text-shadow: 0 0 10px $colordorado;
+    text-align: center;
+}
+.card-text{
+    font-size: 30px;
+    font-family: "Bebas Neue", sans-serif;
+}
+.btn{
+    border-radius: 10px ;
+    width: auto;
+    text-align: center;
+    color: black;
+    background-color: $colordorado;
+    font-size: 24px; 
+    border-color: black;
+    font-family: "Archivo Black", system-ui;
+    text-shadow: 0 0 4px rgb(250, 246, 246);
+   margin: 20px;
+}
+.btn-primary{
+    border-radius: 10px ;
+    width: auto;
+    text-align: center;
+    color: black;
+    background-color: $colordorado;
+    font-size: 24px;
+    }
+.btn-primary:hover{
+    background-color:white;
+}
+
+.form1{
+    background: linear-gradient( 135deg, #6e6d729d 10%, rgba(218, 165, 32, 0.486) 100%),url(imagenes/fondo\ 8.jpg);
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    width: auto;
+    align-items: center;
+  background-size: cover;
+  background-position: center;
+  font-size: 30px;
+ }
+.form2{
+    background: linear-gradient( 135deg, #6e6d729d 10%, rgba(218, 165, 32, 0.486) 100%),url(imagenes/auto\ venta\ 5.jpg);
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    width: auto;
+    align-items: center;
+  background-size: cover;
+  background-position: center;
+  font-size: 30px;
+ }
+
+ input{
+    padding: 20px;
+ border-radius: 25px;
+ background-color: $colordorado;
+ font-size: 20px;
+margin-bottom: 25px;
+margin-top: 20px;
+box-shadow: 0 0 10px black;
+
+}
+
+.map1{
+    color: $colordorado;
+    padding: 25px;
+    background: linear-gradient( 135deg, #030303ce 10%, rgba(29, 27, 22, 0.11) 50%),url(imagenes/fondo\ 7.jpg);
+  
+}
+.map1 p{
+    padding: 20px;
+}
+iframe{
+    width: auto;
+}
+footer{
+    background-color: black;
+    color: $colordorado;
+    font-size: 23px;
+    text-align: center;
+    text-shadow: 0 0 3px white;
+    
+}
+footer .redes a{
+    color: antiquewhite;
+    font-size: 30px;
+    color: $colordorado;
+    text-decoration:none;
+    padding: 10px;
+}
