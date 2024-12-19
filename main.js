@@ -79,4 +79,11 @@ const filtro = prompt(`Ingrese el criterio de busqueda para encontrar su auto:
             break;
     }
 
-console.log(resultado)
+    if (resultado.length > 0) {
+        const detalles = resultado.map(auto => 
+            `Marca: ${auto.marca}, Modelo: ${auto.modelo}, Año: ${auto.anio}, Color: ${auto.color}, Precio: $${auto.precio}`
+        ).join("\n");
+    
+        alert(`Resultados encontrados:\n\n${detalles}`)
+        
+    }
