@@ -87,3 +87,4 @@ const filtro = prompt(`Ingrese el criterio de busqueda para encontrar su auto:
         alert(`Resultados encontrados:\n\n${detalles}`)
         
     }
+    console.log(detalles)
